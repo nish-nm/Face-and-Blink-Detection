@@ -1,11 +1,20 @@
-# Facial Landmark Detection 
+# Face and Blink Detection
 
 # Overview
-In this demo we will find the facial landmarks, such as eyes, nose, mouth, ears, jaw-line using the popular [dlib](http://dlib.net/) library
+
+## Goal
+1) In this demo we will find the facial landmarks, such as eyes, nose, mouth, ears, jaw-line using the popular [dlib](http://dlib.net/) library
+2) We will see the basics of face detection using Haar Feature-based Cascade Classifiers
+3) We will extend the same for eye detection etc.
+4) We also detect the blink counts and upload the count data to the firebase console.
 
 ![Alt](results/facelandmark68.png)
 # Dependencies
-```pip install -r requirements.txt```
+```pip install -r requirements.txt
+   opencv
+   numpy
+   webcam
+```
 
 You also need shape detector, you can download it by 
 ```
@@ -13,14 +22,13 @@ wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 ```
 # Usage
  ```
- python facelandmarkdetect.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/face1.jpg
+ 1) python facial_landmark_detection.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/nish.jpg
+ 2) python eye-blink.py
 ```
 ### Results
 ![Alt](results/result_m.png "Title")
+![Alt](results/blink_cmd.png "blink-detect")
+![Alt](results/blink.png "blink-detect")
 
 
-### Reference
-[One Millisecond Face Alignment with an Ensemble of Regression Trees, Kazemi and Sullivan (2014).](https://pdfs.semanticscholar.org/d78b/6a5b0dcaa81b1faea5fb0000045a62513567.pdf)
 
-
-Credits: My Guru: Adrian Rosebrock 
