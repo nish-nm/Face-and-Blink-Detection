@@ -3,11 +3,10 @@
 # Overview
 
 ## Goal
-In this session,
-In this demo we will find the facial landmarks, such as eyes, nose, mouth, ears, jaw-line using the popular [dlib](http://dlib.net/) library
-We will see the basics of face detection using Haar Feature-based Cascade Classifiers
-We will extend the same for eye detection etc.
-We also detect the blink counts and upload the count data to the firebase console.
+1) In this demo we will find the facial landmarks, such as eyes, nose, mouth, ears, jaw-line using the popular [dlib](http://dlib.net/) library
+2) We will see the basics of face detection using Haar Feature-based Cascade Classifiers
+3) We will extend the same for eye detection etc.
+4) We also detect the blink counts and upload the count data to the firebase console.
 
 ![Alt](results/facelandmark68.png)
 # Dependencies
