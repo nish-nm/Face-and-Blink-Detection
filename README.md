@@ -22,7 +22,7 @@ wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 ```
 # Usage
  ```
- 1) python facelandmarkdetect.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/nish.jpg
+ 1) python facial_landmark_detection.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/nish.jpg
  2) python eye-blink.py
 ```
 ### Results
