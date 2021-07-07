@@ -8,7 +8,6 @@
 3) We will extend the same for eye detection etc.
 4) We also detect the blink counts and upload the count data to the firebase console.
 
-![Alt](results/facelandmark68.png)
 # Dependencies
 ```pip install -r requirements.txt
    opencv
