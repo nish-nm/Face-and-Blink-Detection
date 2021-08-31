@@ -11,10 +11,10 @@ def motiondetect(a):
 
 
     config = {
-    "apiKey": "AIzaSyDFcpcoGQbYkt7D-WPUpd2gHl3ZxzfMPxQ",
-    "authDomain": "eye-blink.firebaseapp.com",
-    "databaseURL": "https://eye-blink.firebaseio.com",
-    "storageBucket": "eye-blink.appspot.com"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": ""
     }
 
     firebase = pyrebase.initialize_app(config)
